@@ -10,7 +10,7 @@
 * [SiamMask](https://arxiv.org/abs/1812.05050)[<https://github.com/foolwood/SiamMask>]
 * [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_High_Performance_Visual_CVPR_2018_paper.pdf)[<https://github.com/huanglianghua/siamrpn-pytorch>]
 
-[1] Since the original code of DaSiamRPN is for Python2, we've had to modify the code a little bit to be compatible with Python3.
+[1] Since the original code of DaSiamRPN is for Python2, we've had to modify the code a little bit to be compatible with Python3.  
 [2] To run Matlab scripts in Python, we've used [transplant](https://github.com/bastibe/transplant) which is much faster than official Matlab API
 
 ## Datasets
