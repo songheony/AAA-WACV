@@ -11,7 +11,7 @@
 * [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_High_Performance_Visual_CVPR_2018_paper.pdf)[<https://github.com/huanglianghua/siamrpn-pytorch>]
 
 [1] Since the original code of DaSiamRPN is for Python2, we've had to modify the code a little bit to be compatible with Python3.  
-[2] To run Matlab scripts in Python, we've used [transplant](https://github.com/bastibe/transplant) which is much faster than official Matlab API
+[2] To run Matlab scripts in Python, we've used [transplant](https://github.com/bastibe/transplant) which is much faster than official Matlab API.
 
 ## Datasets
 
@@ -51,7 +51,7 @@ docker run -it --name server --network [NETWORK_NAME] python aggregate.py -t [TR
 
 2. Clone experts who you want to hire.<sup>[4]</sup>
 
-3. [Create network over docker](https://docs.docker.com/network/network-tutorial-overlay/)
+3. [Create network over docker](https://docs.docker.com/network/network-tutorial-overlay/).
 
 4. Run tracker as a server with docker.
 
