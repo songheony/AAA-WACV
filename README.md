@@ -43,17 +43,19 @@ cd AAA-WACV/external
 git clone [FRAMEWORK_GIT]
 git clone [EXPERT_GIT]
 conda activate [ENV_NAME]
-python tracker.py -e [TRACKER_NAME]
-python aggregate.py -t [TRACKERS_NAME] -d [DATASETS_NAME]
+docker run -it --name [TRACKER_NAME] --network [NETWORK_NAME] python tracker.py -e [TRACKER_NAME]
+docker run -it --name server --network [NETWORK_NAME] python aggregate.py -t [TRACKERS_NAME] -d [DATASETS_NAME]
 ```
 
 1. Clone this repository and make external directory.
 
 2. Clone experts who you want to hire.<sup>[4]</sup>
 
-3. Run tracker as a client with zmq.
+3. [Create network over docker](https://docs.docker.com/network/network-tutorial-overlay/)
 
-4. Run our tracker a server with zmq.
+4. Run tracker as a server with docker.
+
+5. Run our tracker a client with docker.
 
 [4] Depending on the expert, you may need to install additional subparty libraries such as opencv.
 
