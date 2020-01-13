@@ -1,4 +1,4 @@
-# Adaptive Aggregation of Arbitrary Online Trackers with a Regret Bound
+# Adaptive Aggregation of Arbitrary Online Trackers <br/> with a Regret Bound
 
 ## Experts
 
@@ -65,10 +65,3 @@ docker run -it --name server --network [NETWORK_NAME] python aggregate.py -t [TR
 
 * Github: [@songheony](https://github.com/songheony)
 * Contact: songheony@gmail.com
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
