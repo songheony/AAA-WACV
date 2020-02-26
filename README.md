@@ -1,5 +1,10 @@
 # Adaptive Aggregation of Arbitrary Online Trackers <br/> with a Regret Bound
 
+## Tracking examples
+| BlurBody | Hand | car1 | motocross1 | leaves |
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<a href="https://drive.google.com/uc?export=view&id=1LJ4VQ2CPvTeIwSj3sSqolWxYedEdv2VF"><img border="0" alt="BlurBody" src="https://drive.google.com/uc?export=view&id=1NC2oDGns_zYvJ0jL3yqVolMGedj0LCP8" width="200" height="200"></a> | <a href="https://drive.google.com/uc?export=view&id=1ZJHY52iJwABgZ-GJxEBQmqGcD-URQisH"><img border="0" alt="Hand" src="https://drive.google.com/uc?export=view&id=1j3uoCJd8H95nIMZHVzwA_7U4YcTM-EXY" width="200" height="200"></a>  | <a href="https://drive.google.com/uc?export=view&id=1Z8STxs-WzXG9RwNBui74dM4CERzc2_xN"><img border="0" alt="car1" src="https://drive.google.com/uc?export=view&id=1PAS4AwjqcOnsdTHP-mSdQVbK-FkgURxK" width="200" height="200"></a>  | <a href="https://drive.google.com/uc?export=view&id=1n-4pKK4c-0fn_JX-kUEUKz5J9vs2rsid"><img border="0" alt="motocross1" src="https://drive.google.com/uc?export=view&id=1TGemjJJ-SiUXtdzqLqmwVakNWBU-RggM" width="200" height="200"></a>  | <a href="https://drive.google.com/uc?export=view&id=1AvlAUv4JdllBgr7BYlAUTSDEQ6B6bnIm"><img border="0" alt="leaves" src="https://drive.google.com/uc?export=view&id=11DFpa4vOjzzFA73qvJ1lYHCZVatcnWAb" width="200" height="200"></a>
+
 ## Experts
 
 * [DaSiamRPN](https://arxiv.org/abs/1808.06048)[<https://github.com/foolwood/DaSiamRPN>,<https://github.com/songheony/DaSiamRPN>]<sup>[1]</sup>
@@ -58,11 +63,6 @@ docker run -it --name server --network [NETWORK_NAME] python aggregate.py -t [TR
 5. Run our tracker a client with docker.
 
 [4] Depending on the expert, you may need to install additional subparty libraries such as opencv.
-
-## Tracking examples
-| BlurBody | Hand | car1 | motocross1 | leaves |
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<a href="https://drive.google.com/uc?export=view&id=1LJ4VQ2CPvTeIwSj3sSqolWxYedEdv2VF"><img border="0" alt="BlurBody" src="https://drive.google.com/uc?export=view&id=1NC2oDGns_zYvJ0jL3yqVolMGedj0LCP8" width="200" height="200"></a> | <a href="https://drive.google.com/uc?export=view&id=1ZJHY52iJwABgZ-GJxEBQmqGcD-URQisH"><img border="0" alt="Hand" src="https://drive.google.com/uc?export=view&id=1j3uoCJd8H95nIMZHVzwA_7U4YcTM-EXY" width="200" height="200"></a>  | <a href="https://drive.google.com/uc?export=view&id=1Z8STxs-WzXG9RwNBui74dM4CERzc2_xN"><img border="0" alt="car1" src="https://drive.google.com/uc?export=view&id=1PAS4AwjqcOnsdTHP-mSdQVbK-FkgURxK" width="200" height="200"></a>  | <a href="https://drive.google.com/uc?export=view&id=1n-4pKK4c-0fn_JX-kUEUKz5J9vs2rsid"><img border="0" alt="motocross1" src="https://drive.google.com/uc?export=view&id=1TGemjJJ-SiUXtdzqLqmwVakNWBU-RggM" width="200" height="200"></a>  | <a href="https://drive.google.com/uc?export=view&id=1AvlAUv4JdllBgr7BYlAUTSDEQ6B6bnIm"><img border="0" alt="leaves" src="https://drive.google.com/uc?export=view&id=11DFpa4vOjzzFA73qvJ1lYHCZVatcnWAb" width="200" height="200"></a>
 
 ## Author
 
