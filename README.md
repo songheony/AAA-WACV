@@ -1,5 +1,15 @@
 # Adaptive Aggregation of Arbitrary Online Trackers <br/> with a Regret Bound
 
+## Introduction
+
+[Adaptive Aggregation of Arbitrary Online Trackers with a Regret Bound](http://openaccess.thecvf.com/content_WACV_2020/html/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.html) [[pdf](http://openaccess.thecvf.com/content_WACV_2020/papers/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.pdf)]
+
+Heon Song, Daiki Suehiro, and Seiichi Uchida
+
+The IEEE Winter Conference on Applications of Computer Vision(WACV), 2020
+
+> We propose an online visual-object tracking method that is robust even in an adversarial environment, where various disturbances may occur on the target appearance, etc. The proposed method is based on a delayed-Hedge algorithm for aggregating multiple arbitrary online trackers with adaptive weights. The robustness in the tracking performance is guaranteed theoretically in term of "regret" by the property of the delayed-Hedge algorithm. Roughly speaking, the proposed method can achieve a similar tracking performance as the best one among all the trackers to be aggregated in an adversarial environment. The experimental study on various tracking tasks shows that the proposed method could achieve state-of-the-art performance by aggregating various online trackers. 
+
 ## Tracking examples
 | BlurBody | Hand | car1 | motocross1 | leaves |
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
@@ -70,3 +80,15 @@ docker run -it --name server --network [NETWORK_NAME] python aggregate.py -t [TR
 
 * Github: [@songheony](https://github.com/songheony)
 * Contact: songheony@gmail.com
+
+## Citation
+
+```bib
+@InProceedings{Song_2020_WACV,
+    author = {Song, Heon and Suehiro, Daiki and Uchida, Seiichi},
+    title = {Adaptive Aggregation of Arbitrary Online Trackers with a Regret Bound},
+    booktitle = {The IEEE Winter Conference on Applications of Computer Vision (WACV)},
+    month = {March},
+    year = {2020}
+}
+```
