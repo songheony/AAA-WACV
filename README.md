@@ -1,6 +1,6 @@
 # Adaptive Aggregation of Arbitrary Online Trackers <br/> with a Regret Bound
 
-[Adaptive Aggregation of Arbitrary Online Trackers with a Regret Bound](http://openaccess.thecvf.com/content_WACV_2020/html/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.html) [[pdf](http://openaccess.thecvf.com/content_WACV_2020/papers/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.pdf)] [[poster](https://drive.google.com/open?id=1L7rOHWUWEVk92Vfz8SwroKVDAIk9PjMs)
+[Adaptive Aggregation of Arbitrary Online Trackers with a Regret Bound](http://openaccess.thecvf.com/content_WACV_2020/html/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.html) [[pdf](http://openaccess.thecvf.com/content_WACV_2020/papers/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.pdf)] [[poster](https://drive.google.com/open?id=1L7rOHWUWEVk92Vfz8SwroKVDAIk9PjMs)]
 
 Heon Song, Daiki Suehiro, and Seiichi Uchida
 
